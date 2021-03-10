@@ -508,7 +508,7 @@ router.get('/randomanime', async (req, res, next) => {
     	var animenya = data.data.urlnya
          res.json({
          	status: Success,
-             creator: `${creator}|<
+             creator: `${creator}`,
              result:{
              	result:urlnya
              }
