@@ -22,7 +22,6 @@ var cheerio = require('cheerio');
 var request = require('request');
 var TikTokScraper = require('tiktok-scraper');
 var router  = express.Router();
-
 var { color, bgcolor } = require(__path + '/lib/color.js');
 var { fetchJson } = require(__path + '/lib/fetcher.js')
 var options = require(__path + '/lib/options.js');
@@ -113,7 +112,7 @@ loghandler = {
         status: false,
         creator: `${creator}`,
         code: 406,
-        message: 'apikey invalid, gak punya apikey? chat gw aja yaaa di wa.me/6283898698875 , key nya gratis kok gan, jadi santuyy ajaa'
+        message: 'Apikey Invalid'
     },
     invalidlink: {
         status: false,
